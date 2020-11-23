@@ -15,6 +15,8 @@
 		047686B2256B351E005ABF79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047686B0256B351E005ABF79 /* LaunchScreen.storyboard */; };
 		047686BD256B351F005ABF79 /* extensions_dance_partyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047686BC256B351F005ABF79 /* extensions_dance_partyTests.swift */; };
 		047686C8256B351F005ABF79 /* extensions_dance_partyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047686C7256B351F005ABF79 /* extensions_dance_partyUITests.swift */; };
+		047686D9256B3D61005ABF79 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047686D8256B3D61005ABF79 /* UIButtonExt.swift */; };
+		047686DE256B4230005ABF79 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047686DD256B4230005ABF79 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		047686C3256B351F005ABF79 /* extensions-dance-partyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "extensions-dance-partyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047686C7256B351F005ABF79 /* extensions_dance_partyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions_dance_partyUITests.swift; sourceTree = "<group>"; };
 		047686C9256B351F005ABF79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047686D8256B3D61005ABF79 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		047686DD256B4230005ABF79 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				047686AE256B351E005ABF79 /* Assets.xcassets */,
 				047686B0256B351E005ABF79 /* LaunchScreen.storyboard */,
 				047686B3256B351E005ABF79 /* Info.plist */,
+				047686D8256B3D61005ABF79 /* UIButtonExt.swift */,
+				047686DD256B4230005ABF79 /* Helpers.swift */,
 			);
 			path = "extensions-dance-party";
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 				047686AA256B351B005ABF79 /* ViewController.swift in Sources */,
 				047686A6256B351B005ABF79 /* AppDelegate.swift in Sources */,
 				047686A8256B351B005ABF79 /* SceneDelegate.swift in Sources */,
+				047686DE256B4230005ABF79 /* Helpers.swift in Sources */,
+				047686D9256B3D61005ABF79 /* UIButtonExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
